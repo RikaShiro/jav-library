@@ -27,12 +27,11 @@ function extractAvNumber(filename) {
 }
 
 async function loadResults(jsonPath) {
-	// no longer used; kept for compatibility
-}
+	// kept for compatibility
+	return {}
 }
 
 // saveResults removed - results are persisted inside list.json
-
 
 async function loadDb(jsonPath) {
 	try {
