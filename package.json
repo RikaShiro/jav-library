@@ -1,0 +1,13 @@
+{
+	"name": "javdb-actress-finder",
+	"version": "1.0.0",
+	"description": "Small helper to get actress name from JavDB",
+	"type": "commonjs",
+	"scripts": {
+		"start": "node ./run.js"
+	},
+	"dependencies": {
+		"axios": "^1.5.0",
+		"cheerio": "^1.0.0-rc.12"
+	}
+}
